@@ -1,0 +1,12 @@
+language: node_js
+
+node_js:
+  - v6
+
+script:
+  - gulp check
+
+notifications:
+  email:
+    - XChen@walmartlabs.com
+    - ananavati@walmartlabs.com
